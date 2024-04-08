@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        header{
+            margin: auto;
+            background-color: rgb(123, 123, 123);
+            height: 130px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            padding: 5px;
+            color: white;
+        }
+        header > h1{
+            text-align: left;
+            font-weight: bold;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 30px;
+        }
+        nav > a {
+            background-color: darkgrey;
+            padding: 10px;
+
+            border-radius: 10px;
+
+            margin-right: 30px;
+            margin-left: 15px;
+            text-decoration: none;
+            color: blueviolet;
+        }
+        nav >a:hover {
+            color: purple;
+            text-decoration: underline;
+        }
+        main{
+            background-color: lightgray;
+            color: black;
+            
+            padding: 5px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        main > section#jogoslegais {
+            background-color: white;
+            margin: auto;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            padding: 5px;
+        }
+        main > section#noticias{
+            background-color: white;
+            margin: auto;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            padding: 5px;
+        }
+        section#jogoslegais > article{
+            padding-left: 10px;
+        }
+        section#noticias > article{
+            padding-left: 10px;
+        }
+        section#jogoslegais > article > ol{
+            padding-bottom: 10px;
+        }
+        section#jogoslegais > article > h1{
+            font-size: 2.3em;
+        }
+        section#noticias > article > h1{
+            font-size: 2.3em;
+        }
+        article > aside {
+            margin: auto;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            background-color: black;
+            color: white;
+        }
+        footer{
+            background-color: rgb(56, 56, 56);
+            margin-top: auto;
+            color: white;
+            text-align: center;
+
+            border-radius: 15px;
+
+            height: 90px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        footer > p{
+            font-size: 1.2em;
+            margin-top: 10px;
+            
+            padding-top: 5px;
+        }
+        footer > a{
+            background-color: rgb(161, 161, 161);
+            padding: 5px;
+            border-radius: 10px;
+
+            margin-right: 30px;
+            margin-left: 15px;
+
+            text-decoration: none;
+            color: blueviolet;
+        }
+        footer >a:hover {
+            color: purple;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!--Tags semânticas para montar o site-->
+    <!--Tags usadas como se fossem divs, mas de forma semântica, maneira correta de fazer hoje em dia por facilitar os mecanismos de busca do google para os sites-->
+    <header> <!--Cabeçalho-->
+        <h1>Meu site maneirão</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+        
+    </header>
+    <main> <!--Conteúdo Principal-->
+        <section id="jogoslegais">
+            <article>
+                <h1>Meus jogos favoritos</h1>
+                <ol type="1" >
+                    <li>Skyrim</li>
+                    <li>Dead by Daylight</li>
+                    <li>Stardew Valley</li>
+                    <li>Hollow knight</li>
+                </ol>
+                <aside>
+                    Lista feita por Caio Vieira
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>NVIDIA LANÇOU UMA PEÇA NOVA UAU :O</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia omnis recusandae iure amet quasi, exercitationem repellat nulla consequuntur neque quibusdam maxime aliquid accusantium illo ipsa doloribus dolores similique nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim amet nam odit facilis illum obcaecati accusantium repellendus ratione saepe voluptatum quasi dolorum sequi deserunt consectetur harum ipsam repellat, est suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam dolores ipsa eos enim explicabo sint nesciunt illo inventore pariatur, odio blanditiis. Vitae commodi expedita inventore voluptate laborum ipsum eligendi.</p>
+            </article>
+        </section>
+    </main>
+    <footer> <!--Rodapé-->
+        <p>feito por Caio Vieira Magalhães</p>
+        <a href="">links adicionais</a>
+        <a href="">links adicionais</a>
+        <a href="">links adicionais</a>
+    </footer>
+</body>
+</html>

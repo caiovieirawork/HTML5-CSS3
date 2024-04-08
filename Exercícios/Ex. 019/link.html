@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementos</title>
+    <style>
+        a{
+            color: purple;
+            text-decoration: none;
+            font-size: 1.4em;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .especial::after{ /*Pseudoelementos representados com :: servem para modificar um pedaço específico do elemento referenciado - Mais usados são after, before, first-letter, first-line*/
+
+            content: '»';
+        }
+        .especial::before{
+            content: '«';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <p><a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+    <p><a href="https://www.google.com.br/?hl=pt-BR" target="_blank" class="especial">Google</a></p>
+    <p><a href="https://www.instagram.com/?next=%2F" target="_blank">Instagram</a></p>
+</body>
+</html>

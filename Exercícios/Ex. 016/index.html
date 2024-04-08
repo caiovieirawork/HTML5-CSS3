@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <style>
+        /*Se eu tiver afim de importar fontes diferentes é só colocar @import (ir no google fontes e copiar o import deles e colar aqui na parte de cima do style*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 3em;
+            font-weight: bold;
+            font-style: italic;
+        }
+        h2{
+            /*
+            Configuração que poderia ser escrita:
+            font-size: 2em;
+            font-weight: lighter;
+            font-style: italic;
+
+            Mas temos uma shorthand(mãozinha) para encurtar esse processo
+
+            propriedade = font (Segurando control e indo com o mouse nela dá para ver a sintax e a ordem dos componentes para colocar)
+            -Usada para reduzir linhas e trabalho, colocando as mesmas propriedades em um só termo
+            
+            Exemplo abaixo
+            
+            Para importar uma fonte baixada usasse 
+            @font-face {
+                font-family: 'Aqui vc coloca um nome da sua preferência' ;
+                src: url('nome do arquivo da fonte e em qual pasta ele tá') 
+                format ('Aqui vc coloca o tipo de formato da fonte');
+                
+                ---(aqui pode colocar algumas configurações bases para a fonte, como:)
+                font-weight: normal;
+                font-style: normal;
+            }
+                */
+
+            font: italic lighter 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>TÍTULO BOLADÃO</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem dicta laboriosam dignissimos quod beatae sint dolorum perferendis enim illo, tenetur delectus harum tempora consequuntur. Modi tenetur eligendi eius dolor adipisci! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt at nesciunt, aspernatur soluta beatae laboriosam repellendus sint quibusdam, nostrum explicabo, repellat commodi voluptatem. Laborum velit nihil iure quasi quisquam excepturi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cupiditate quibusdam sit, eos sed accusamus itaque earum fugit provident illo ratione. Voluptatibus, tempore. Quae temporibus nesciunt, optio ab cupiditate blanditiis.</p>
+    <h2>SUBTÍTULO BOLADÃO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga nihil repudiandae maiores inventore magnam nesciunt. Harum perspiciatis illum possimus, magni impedit nobis et quia nemo id earum voluptatum quasi.</p>
+</body>
+</html>

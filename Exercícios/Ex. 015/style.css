@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: pink;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px lightcoral;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: plum;
+}
+h2 {
+    color: powderblue;
+    font-size: 26px;
+}
+
+h3 {
+    color: cornflowerblue;
+    font-size: 22px;
+}
+p {
+    font-size: 20px;
+    justify-content: center;
+}
