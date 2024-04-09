@@ -77,10 +77,11 @@ section.imagem{
     color: var(--light-color);
 }
 section.imagem > p{
-    width: 350px;
+    display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-right: 5px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.250);
 }
