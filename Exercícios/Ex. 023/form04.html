@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4</title>
+</head>
+<body>
+            <fieldset>
+                <legend> Dados Pessoais </legend>
+                    <form action="formulario.php" method="post">
+                        <div>
+                            <label for="inome">Nome: </label>
+                            <input type="text" name="nome" id="inome">
+                        </div>
+                        <div>
+                            <label for="iemail">Email: </label>
+                            <input type="email" name="email" id="iemail">
+                        </div>
+                        <div>
+                            <label for="itel">Celular: </label>
+                            <input type="tel" name="tel" id="itel">
+                            <!--Estudar RegEx para colocar uma tag pattern no telefone (colocar um padrão de digitação para o telefone/celular)-->
+                        </div>
+                    </form>
+            </fieldset>
+</body>
+</html>
