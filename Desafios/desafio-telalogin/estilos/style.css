@@ -66,9 +66,13 @@ section#login > div#formu {
 div#formu > h1{
     text-align: center;
     margin-bottom: 10px;
+    color: var(--darker-color);
 }
 div#formu >p{
     font-size: 0.8em;
+    text-align: center;
+    color: var(--2interm-color);
+    font-weight: 600;
 }
 
 form > div.campo {

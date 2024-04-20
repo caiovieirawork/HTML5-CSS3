@@ -17,6 +17,12 @@
         width: 60%;
     }
 
+    div#formu {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    }
     div#formu > h1{
         text-align: center;
         margin-bottom: 10px;
@@ -24,6 +30,7 @@
     }
     div#formu > p{
         font-size: 1em;
+        text-align: center;
     }
 }
 
@@ -45,6 +52,12 @@
         width: 60%;
     }
 
+    div#formu {
+        position: relative;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        }
     div#formu > h1{
         text-align: center;
         margin-bottom: 10px;
@@ -52,5 +65,6 @@
     }
     div#formu > p{
         font-size: 1.2em;
+        text-align: center;
     }
 }
