@@ -7,7 +7,7 @@
     section#login{
         width: 80vw;
     }
-    section#login >div#imagem{
+    section#login > div#imagem{
         width: 40%;
         height: 100%;
         float: left;
@@ -15,6 +15,15 @@
     section#login > div#formu{
         float: right;
         width: 60%;
+    }
+
+    div#formu > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.8em;
+    }
+    div#formu > p{
+        font-size: 1em;
     }
 }
 
@@ -26,13 +35,22 @@
         width: 950px;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
 
     section#login > div#formu{
-        float: right;
+        float: left;
         width: 60%;
+    }
+
+    div#formu > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    div#formu > p{
+        font-size: 1.2em;
     }
 }
